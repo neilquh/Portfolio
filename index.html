@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Mark Neil Photography</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+        <link href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="designs.css"> 
+    </head>
+<body style="font-family: 'poppins', sans-serif;">
+
+    <!-- Header -->
+    
+    <header class="w3-display-container w3-content w3-center" style="max-width:1500px">
+        <img class="w3-image" src="images/me1.png" alt="Me" width="1500" height="600">
+        <div class="w3-display-middle w3-padding-large w3-border w3-wide w3-text-light-grey w3-center">
+            <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge">Captured by Neil</h1>
+
+            <h3 class="w3-hide-medium w3-hide-small">PHOTOGRAPHER</h3>
+        </div>
+
+        <!-- Navbar (placed at the bottom of the header image) -->
+        <div class="w3-bar w3-light-grey w3-round w3-display-bottommiddle w3-hide-small" style="bottom:-16px">
+            <a href="#" class="w3-bar-item w3-button">Home</a>
+            <a href="#portfolio" class="w3-bar-item w3-button">Portfolio</a>
+            <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+        </div>
+    </header>
+
+    <!-- Navbar on small screens -->
+    <div class="w3-center w3-light-grey w3-padding-16 w3-hide-large w3-hide-medium">
+        <div class="w3-bar w3-light-grey">
+            <a href="#" class="w3-bar-item w3-button hover:text-gray-200">Home</a>
+            <a href="#portfolio" class="w3-bar-item w3-button hover:text-gray-200">Portfolio</a>
+            <a href="#contact" class="w3-bar-item w3-button hover:text-gray-200">Contact</a>
+        </div>
+    </div>
+    <!-- Page content -->
+    <div class="w3-content w3-padding-large w3-margin-top" id="portfolio">
+
+        <!-- Images (Portfolio) -->
+       
+        <section id="portfolio" class="container mx-auto py-16">
+            <h2 class="text-3xl font-bold mb-8"><center>Portfolio</center></h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 " >
+              <a href="selfportrait.html" class="group hover:shadow-lg  text-center">
+                <img class="w-full h-60 object-cover rounded-lg" src="images/model1.jpg" alt="Image 1">
+                <div class="absolute inset-2 bg-gradient-to-r from-turquoise-500 to-teal-500 hover:opacity-100 opacity-0 transition duration-300"></div>
+                <p class="text-lg font-medium mt-2">Self-Portrait</p>
+              </a>
+              <a href="schoolevents.html" class="group hover:shadow-lg text-center">
+                <img class="w-full h-60 object-cover rounded-lg" src="images/model3.jpg" alt="Image 3">
+                <p class="text-lg font-medium mt-2">School Events</p>
+              </a>
+              <a href="streetphotography.html" class="group hover:shadow-lg text-center">
+                <img class="w-full h-60 object-cover rounded-lg" src="images/model4.jpg" alt="Image 4">
+                <p class="text-lg font-medium mt-2">Street Photography</p>
+              </a>
+            </div>
+          </section>
+          <!---About-->
+          <section class="container mx-auto py-16">
+            <h2 class="text-3xl font-bold mb-8 text-center">About the Project</h2>
+      
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div class="p-4 border border-gray-300 rounded-lg bg-blue-100">
+                <p class="text-lg leading-loose"><b><i class="uil uil-desktop"></i>About client</b><br> The site design was developed for a photographer, a creative person who is passionate about his work. It showcases Mark Neil's incredibly creative nature and how what was once his hobby has grown into a full-time profession.</p>
+              </div>
+              
+              <div class="grid grid-cols-1 md:grid-cols-1 gap-4">
+                <div class="p-4 border border-gray-300 rounded-lg bg-blue-100">
+                  <p class="text-lg leading-loose"><b><i class="uil uil-clipboard-notes"></i>Task</b><br>The task was to display Mark Neil's incredibly creative nature, and at the same time show how much what was once his hobby has grown into life and part-time work. Driven by a passion for capturing the world around me, I translate my creative vision into captivating photographs. What began as a hobby has blossomed into a fulfilling pursuit, allowing me to share my unique perspective.</p>
+                </div>
+            </div>
+            </section>
+            <!--why ordering-->
+            <section class="container mx-auto py-16">
+                <h2 class="text-3xl font-bold mb-8 text-center">Why Choose Captured by Neil?</h2>
+          
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div class="p-4 border border-gray-300 rounded-lg flex flex-col items-center space-y-4 bg-gray-100">
+                    <i class="uil uil-camera"></i> <h3 class="text-xl font-bold mb-2">Semi-Pro Equipment</h3>
+                    <p class="text-gray-500">I am using Semi-Professional camera equipment, lenses and lighting equipment, which allows you to get clear and bright images.</p>
+                  </div>
+          
+                  <div class="p-4 border border-gray-300 rounded-lg flex flex-col items-center space-y-4 bg-gray-100">
+                    <i class="uil uil-comparison"></i> <h3 class="text-xl font-bold mb-2">I Help You Feel Comfortable</h3>
+                    <p class="text-gray-500"> Will help you feel comfortable in front of the lens and create an atmosphere that allows you to naturally express your personality in the pictures.</p>
+                  </div>
+                </div>
+          
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
+                  <div class="p-4 border border-gray-300 rounded-lg flex flex-col items-center space-y-4 bg-gray-100">
+                    <i class="uil uil-process"></i> <h3 class="text-xl font-bold mb-2">Professional Processing</h3>
+                    <p class="text-gray-500">Taking pictures, and I also have processing and retouching skills, which are very important to create flawless images.</p>
+                  </div>
+          
+                  <div class="p-4 border border-gray-300 rounded-lg flex flex-col items-center space-y-4 bg-gray-100">
+                    <i class="uil uil-check-circle"></i> <h3 class="text-xl font-bold mb-2">Quick Results</h3>
+                    <p class="text-gray-500">Within 3 days after the photo session, you will receive high-quality photos that will capture the brightest and most emotional moments of your event or portrait session.</p>
+                  </div>
+                </div>
+          <!--statistics-->
+                
+
+              </section>
+              <!--Reviews-->
+              <section id="reviews" class="container mx-auto py-16 px-4">
+                <h2 class="text-3xl font-bold mb-8 text-center">Reviews from Satisfied Customers</h2>
+          
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                  <div class="flex flex-col space-y-4 p-4 border border-gray-300 rounded-lg bg-blue-100">
+                    <div class="flex items-center mb-2">
+
+                          
+                      <div>
+                        <h3 class="text-lg font-bold"><img src="images/rev1.jpg" alt="Customer 1" class="w-12 h-12 rounded-full mr-4">Therese Sofia Enriquez</h3>
+                        <span class="text-sm text-gray-500">Registered Psychology</span><br>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span><br>
+                      </div>
+                    </div>
+                    <p class="text-gray-600 leading-loose">I highly recommend this photographer! Each of his photographs is a true masterpiece. He knows how to reproduce emotions and creates impressive visual stories. Extremely satisfied with the result!</p>
+                  </div>
+          
+                  <div class="flex flex-col space-y-4 p-4 border border-gray-300 rounded-lg bg-blue-100">
+                    <div class="flex items-center mb-2">
+                      
+                      <div>
+                        <h3 class="text-lg font-bold"><img src="images/rev2.jpg" alt="Customer 1" class="w-12 h-12 rounded-full mr-4">Althea Marie Eugenio</h3>
+                        <span class="text-sm text-gray-500">Flight Steward</span><br>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span><br>
+                      </div>
+                    </div>
+                    <p class="text-gray-600 leading-loose">Mark Neil approached his work professionally and with great warmth. He helped us feel comfortable in front of the lens, and the results exceeded our expectations.</p>
+                  </div>
+
+                  <div class="flex flex-col space-y-4 p-4 border border-gray-300 rounded-lg bg-blue-100">
+                    <div class="flex items-center mb-2">
+                      
+                      <div>
+                        <h3 class="text-lg font-bold"><img src="images/rev3.jpg" alt="Customer 1" class="w-12 h-12 rounded-full mr-4">
+                          Adrian Vallejos Jamon</h3>
+                        <span class="text-sm text-gray-500">Mechanical Engineer</span><br>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                      </div>
+                    </div>
+                    <p class="text-gray-600 leading-loose">Overall, I was extremely satisfied with your work and would highly recommend Captured by Neil Photography to others.</p>
+                  </div>
+
+                  <div class="flex flex-col space-y-4 p-4 border border-gray-300 rounded-lg bg-blue-100">
+                    <div class="flex items-center mb-2">
+                      
+                      <div>
+                        <h3 class="text-lg font-bold"><img src="images/rev4.jpg" alt="Customer 1" class="w-12 h-12 rounded-full mr-4">
+                          Jeriel Bugarin Francia</h3>
+                        <span class="text-sm text-gray-500">Accountant</span><br>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span><br>
+                      </div>
+                    </div>
+                    <p class="text-gray-600 leading-loose">Thank you again for your excellent work. I look forward to potentially working with you again in the future.</p>
+                  </div>
+          
+                  </div>
+              </section>
+            
+
+        
+        <!-- Contact -->
+        <div class="w3-light-grey w3-padding-large w3-padding-32 w3-margin-top" id="contact">
+            <h3 class="w3-center">Contact<i class="uil uil-phone-alt"></i></h3>
+            <hr>
+      
+
+            <form action="/includes/action_page.php" method="post">
+                <div class="w3-section">
+                    <label>Name</label>
+                    <input class="w3-input w3-border" type="text" id="name" required >
+                </div>
+                <div class="w3-section">
+                    <label>Email</label>
+                    <input class="w3-input w3-border" type="text" id="Email" placeholder="Email">
+                </div>
+                <div class="w3-section">
+                    <label>Message</label>
+                    <input class="w3-input w3-border" type="text" id="Message" rows="5" placeholder="Message">
+                </div>
+                <div class="w3-section">
+                  <label>Phone Number</label>
+                  <input class="w3-input w3-border" type="number" id="Phone_Number" placeholder="PhoneNumber" required>
+              </div>
+                <button type="submit" class="w3-button w3-block w3-dark-grey" name="btn_send">Send</button>
+            </form><br>
+            <!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+           <footer>
+            <a href="https://www.facebook.com/markneilphotography" class="fa fa-facebook"></a><br>
+            <a href="mailto:photography.markneil@gmail.com" class="fa fa-google"></a>
+           </footer>
+
+        </div>
+
+        <!-- End page content -->
+    </div>
+
+
+</body>
+
+</html>
